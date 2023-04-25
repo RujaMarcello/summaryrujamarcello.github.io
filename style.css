@@ -1,0 +1,183 @@
+body {
+    background-color: hsl(221, 100%, 96%);
+    display: flex;
+    justify-content: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+    margin-top:5%;
+}
+
+h3,h1 {
+    color:hsl(241, 100%, 89%);
+}
+
+* {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+
+.leftSideContainer {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-radius: 20px;
+}
+
+.circle {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(9deg, rgba(82,57,245,1) 0%, rgba(73,36,207,255) 93%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle h1 {
+    font-size: 55px;
+    color: white;
+}
+.circle span {
+    font-weight: bold;
+    position: absolute;
+    top: 100px;
+    color:hsl(241deg 100% 89% / 59%) !important;
+}
+
+.paragraph {
+    color:hsl(241, 100%, 89%);
+    width: 227px;
+    text-align: center;
+}
+
+.rightSideContainer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 275px;
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px ;
+}
+
+.rightSideContainer h3 {
+    color:black;
+}
+
+.summaryColection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+ 
+
+.align-bars-items {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.align-bars-items img {
+    margin-right: 8px;
+}
+
+
+.procent {
+    margin-right: 20px;
+    color:black;
+    display: flex;
+    align-items: center;
+}
+
+.procent span {
+    color:hsl(241, 100%, 89%);
+}
+
+.circle span {
+    color:hsl(241, 100%, 89%);
+}
+
+.summary {
+    padding: 4px;
+    height: 38px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.reactionBar {
+    background-color: hsla(0, 100%, 67%, 0.1);
+    color: hsl(0, 100%, 67%);
+}
+
+.memoryBar {
+    background-color: hsla(39, 100%, 56%, 0.1);
+    color: hsl(39, 100%, 56%);
+}
+.verbalBar {
+    background-color: hsla(166, 100%, 37%,0.1);
+    color: hsl(166, 100%, 37%);
+}
+.visualBar {
+    background-color: hsla(234, 85%, 45%,0.1);
+    color: hsl(234, 85%, 45%);
+}
+
+.continueButton {
+    background-color:  hsl(224, 30%, 27%);
+    border-radius: 30px;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border: none;
+}
+.continueButton:hover {
+ background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));;
+}
+
+.leftConn {
+    width: 100%;
+}
+
+@media (max-width: 500px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 20px;
+      }
+    body {
+        margin: 0;
+        display: unset;
+    }
+    .leftConn {
+        width: 100%;
+        padding: 20px;
+    }
+    .rightSideContainer {
+        padding: 0;
+    }
+    .leftSideContainer {
+        padding: 0;
+        width: 100%;
+        border-radius: 0 0 25px 25px;
+    }
+}
+
+
+
+
+
+
